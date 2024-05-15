@@ -1,3 +1,5 @@
+/*src/componentes/atomos/button ----- estilos */
+
 .custom-button {
   background-color: aqua;
   color: blue;
@@ -10,7 +12,7 @@
 
 }
 
-.custom-button {
+.custom-button:hover {
   background-color: blue;
-  color: aqua
+  color: aqua;
 }

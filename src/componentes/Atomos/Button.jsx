@@ -1,14 +1,14 @@
-import React, { Children } from 'react'
-import '../Atomos/Button.css'
+import React from 'react';
+import './Button.css';
+
 
 const Button = () => {
   return (
     <div>
-      <button>Pulsar
-        {Children}
+      <button>Inicio
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

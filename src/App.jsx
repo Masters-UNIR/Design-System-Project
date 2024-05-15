@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Button from './componentes/Atomos/Button'
+import { useState } from 'react';
+import Button from './componentes/Atomos/Button';
 
-function App() {
-  const [count, setCount] = useState(0)
+
+const App() => {
+
 
   return (
-    <>
-      Kaixo
+    <div>
+      <h1> Kaixo!</h1>
       <Button />
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;
