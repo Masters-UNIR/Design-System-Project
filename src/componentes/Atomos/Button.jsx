@@ -1,11 +1,12 @@
 
+//Componente botón standard. 
 import './Button.css';
 
 
 const Button = () => {
   return (
     <div>
-      <button>Inicio</button>
+      <button className='custom-button'>Inicio</button>
     </div>
   );
 };
