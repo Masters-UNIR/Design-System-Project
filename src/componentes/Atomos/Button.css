@@ -1,8 +1,8 @@
 /*src/componentes/atomos/button ----- estilos */
 
 .custom-button {
-  background-color: aqua;
-  color: blue;
+  background-color: rgb(5, 131, 131);
+  color: rgb(36, 36, 82);
   border: none;
   border-radius: 5px;
   padding: auto;
@@ -13,6 +13,7 @@
 }
 
 .custom-button:hover {
-  background-color: blue;
-  color: aqua;
+  background-color: rgb(36, 36, 82);
+  ;
+  color: rgb(5, 131, 131);
 }
