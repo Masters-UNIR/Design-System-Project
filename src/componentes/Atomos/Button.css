@@ -1,0 +1,16 @@
+.custom-button {
+  background-color: aqua;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: auto;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: background-color 0.3s ease;
+
+}
+
+.custom-button {
+  background-color: blue;
+  color: aqua
+}
