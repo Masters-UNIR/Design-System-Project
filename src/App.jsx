@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from './componentes/Atomos/Button';
 
 
-const App() => {
+const App = () => {
 
 
   return (
