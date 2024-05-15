@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <h1> Kaixo!</h1>
+      <input type="text" />
       <Button />
     </div>
   );
