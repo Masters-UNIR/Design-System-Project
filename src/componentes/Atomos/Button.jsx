@@ -1,11 +1,11 @@
-
+/*Componente botón standard. He generado un css para darle estilos pero aunque le imorto el archivo no hace nada*/
 import './Button.css';
 
 
 const Button = () => {
   return (
     <div>
-      <button>Inicio</button>
+      <button className='custom-button'>Inicio</button>
     </div>
   );
 };

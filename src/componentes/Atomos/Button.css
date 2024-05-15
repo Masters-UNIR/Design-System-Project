@@ -1,12 +1,12 @@
 /*src/componentes/atomos/button ----- estilos */
 
 .custom-button {
-  background-color: rgb(5, 131, 131);
+  background-color: rgb(158, 231, 231);
   color: rgb(36, 36, 82);
   border: none;
   border-radius: 5px;
-  padding: auto;
-  font-size: 16px;
+  padding: 5px;
+  font-size: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transition: background-color 0.3s ease;
 
@@ -14,6 +14,5 @@
 
 .custom-button:hover {
   background-color: rgb(36, 36, 82);
-  ;
-  color: rgb(5, 131, 131);
+  color: rgb(158, 231, 231);
 }
