@@ -1,13 +1,17 @@
 import { useState } from 'react';
 import Button from './componentes/Atomos/Button';
 
+//Componente App
 
 const App = () => {
   const [inputText, setInputText] = useState('');
-  /*Genero un evento para mostrar nombre de usuario*/
+
+  //Genero un evento para mostrar nombre de usuario. Cuando introduces tu nombre en el campo de texto te lo muestra en pantalla
+
   const nombre = (e) => {
     setInputText(e.target.value);
   };
+
 
 
   return (
