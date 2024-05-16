@@ -1,4 +1,5 @@
-/*Componente botón standard. He generado un css para darle estilos pero aunque le imorto el archivo no hace nada*/
+//Componente botón standard. Prop onClick
+
 import './Button.css';
 import PropTypes from 'prop-types';
 
