@@ -22,6 +22,7 @@ const App = () => {
   return (
     <div>
       <h1> Kaixo {displayText}!</h1>
+      <p>Introduce tu nombre</p>
       <input type="text" onChange={nombre} />
       <Button onClick={handleButtonClick} />
     </div>
