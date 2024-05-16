@@ -5,6 +5,7 @@ import Button from './componentes/Atomos/Button';
 
 const App = () => {
   const [inputText, setInputText] = useState('');
+  const [displayText, setDisplayText] = useState('');
 
   //Genero un evento para mostrar nombre de usuario. Cuando introduces tu nombre en el campo de texto te lo muestra en pantalla
 
@@ -12,13 +13,17 @@ const App = () => {
     setInputText(e.target.value);
   };
 
+  const handleButtonClick = () => {
+    // Cuando se hace clic en el botón, actualiza el texto que se muestra en el h1
+    setDisplayText(inputText);
+  };
 
 
   return (
     <div>
-      <h1> Kaixo {inputText}!</h1>
+      <h1> Kaixo {displayText}!</h1>
       <input type="text" onChange={nombre} />
-      <Button />
+      <Button onClick={handleButtonClick} />
     </div>
   );
 };
