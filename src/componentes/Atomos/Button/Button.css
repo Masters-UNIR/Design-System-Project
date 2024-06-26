@@ -1,5 +1,4 @@
-/*src/componentes/atomos/button ----- estilos */
-
+/* src/componentes/Atomos/Button.css */
 .button {
   --accent-color: rgb(158, 231, 231);
   background-color: var(--accent-color);
@@ -7,14 +6,12 @@
   border: none;
   border-radius: 20px;
   padding: 8px 16px;
-  font-size: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.1s ease;
-
 }
 
 .button:hover {
@@ -22,6 +19,9 @@
   color: rgb(158, 231, 231);
 }
 
+.primary {
+  background-color: var(--accent-color);
+}
 
 .secondary {
   background-color: transparent;
@@ -31,5 +31,5 @@
 
 .tertiary {
   background-color: var(--accent-color);
-  border: 2px dashed var(--accent-color);
+  border: 2px dashed rgb(36, 36, 82);
 }
