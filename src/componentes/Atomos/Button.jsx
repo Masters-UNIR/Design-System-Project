@@ -1,19 +1,22 @@
-//Componente botón standard. Prop onClick
+//Componente botón standard.
+
 
 import './Button.css';
-import PropTypes from 'prop-types';
+import Proptypes from "prop-types";
 
+const getStyles = (...args) => ["button", ...args].filter(Boolean).join("");
 
-const Button = ({ onClick }) => {
+const Button = ({ children, type }) => {
   return (
-    <div>
-      <button className='custom-button' onClick={onClick}>Inicio</button>
-    </div>
+    <button className={getStyles(type)}>
+      {children}
+    </button>
   );
 };
 
 Button.propTypes = {
-  onClick: PropTypes.func.isRequired
+  children: Proptypes.string.isRequired,
+  type: Proptypes.oneOf(["primary", "secondary", "tertiary"]),
 };
 
 export default Button;

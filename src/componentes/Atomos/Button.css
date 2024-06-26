@@ -1,19 +1,35 @@
 /*src/componentes/atomos/button ----- estilos */
 
-.custom-button {
-  background-color: rgb(158, 231, 231);
+.button {
+  --accent-color: rgb(158, 231, 231);
+  background-color: var(--accent-color);
   color: rgb(36, 36, 82);
   border: none;
-  border-radius: 5px;
-  padding: 5px;
-  margin-top: 10px;
+  border-radius: 20px;
+  padding: 8px 16px;
   font-size: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
   transition: background-color 0.1s ease;
 
 }
 
-.custom-button:hover {
+.button:hover {
   background-color: rgb(36, 36, 82);
   color: rgb(158, 231, 231);
+}
+
+
+.secondary {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.tertiary {
+  background-color: var(--accent-color);
+  border: 2px dashed var(--accent-color);
 }
