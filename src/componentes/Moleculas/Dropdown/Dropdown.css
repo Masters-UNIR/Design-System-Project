@@ -1,0 +1,38 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  /* Puedes ajustar este valor según sea necesario */
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0 0 8px 8px;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover,
+.dropdown-item.selected {
+  background-color: rgb(36, 36, 82);
+  color: rgb(158, 231, 231);
+}
+
+.dropdown>button {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  /* Redondear bordes superior */
+}
+
+.dropdown>button:hover {
+  border-radius: 8px 8px 0 0;
+  /* Mantener redondez al hacer hover */
+}
