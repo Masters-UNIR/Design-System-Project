@@ -2,7 +2,7 @@
 import IconSpec from './IconSpec';
 
 export default {
-  title: 'Molecules/IconSpec',
+  title: 'Moleculas/IconSpec',
   component: IconSpec,
   argTypes: {
     children: {

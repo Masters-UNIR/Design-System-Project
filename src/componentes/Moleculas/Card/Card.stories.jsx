@@ -2,7 +2,7 @@
 import Card from './Card';
 
 export default {
-  title: 'Molecules/Card',
+  title: 'Moleculas/Card',
   component: Card,
   argTypes: {
     alt: {

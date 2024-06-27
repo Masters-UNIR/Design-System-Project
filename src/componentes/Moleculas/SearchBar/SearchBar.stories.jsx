@@ -2,7 +2,7 @@
 import SearchBar from './SearchBar';
 
 export default {
-  title: 'Molecules/SearchBar',
+  title: 'Moleculas/SearchBar',
   component: SearchBar,
 };
 

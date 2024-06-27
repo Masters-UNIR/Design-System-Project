@@ -2,7 +2,7 @@
 import Dropdown from './Dropdown';
 
 export default {
-  title: 'Components/Dropdown',
+  title: 'Moleculas/Dropdown',
   component: Dropdown,
   argTypes: {
     buttonType: {

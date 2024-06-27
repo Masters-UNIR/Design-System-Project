@@ -4,7 +4,7 @@ import Button from "./Button";
 import "./Button.css";
 
 export default {
-  title: "components/Button",
+  title: "Atomos/Button",
   component: Button,
   args: {
     children: "Button",
