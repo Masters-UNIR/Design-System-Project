@@ -1,4 +1,3 @@
-
 import IconSpec from './IconSpec';
 
 export default {
@@ -7,12 +6,12 @@ export default {
   argTypes: {
     children: {
       control: 'text',
-      defaultValue: 'Specification Text',
+      defaultValue: 'Descripción icono',
     },
     icon: {
       control: {
         type: 'select',
-        options: ['search', 'heart', 'info', 'flag', 'logo'], // Ajusta según los íconos disponibles
+        options: ['search', 'heart', 'info', 'flag', 'logo', 'ArrowRight'],
       },
       defaultValue: 'search',
     },
@@ -23,6 +22,6 @@ const Template = (args) => <IconSpec {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  children: 'Specification Text',
+  children: 'Descripción icono',
   icon: 'search',
 };

@@ -1,8 +1,19 @@
 .specification {
+  display: inline-flex;
+  /* Alinea el ícono y el contenido en línea */
+  align-items: center;
+  /* Centra verticalmente los elementos */
   padding: 10px;
 }
 
+/* Aplica estilos a los elementos img y svg*/
+.specification img,
 .specification svg {
-  width: 10px;
-  margin-right: 5px
+  width: 20px;
+  /* Define un ancho fijo para los íconos */
+  height: 20px;
+  /* Define una altura fija para los íconos */
+  margin-right: 5px;
+  /* Espacio a la derecha del ícono */
+
 }

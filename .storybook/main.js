@@ -25,10 +25,19 @@ const config = {
   typescript: {
     reactDocgen: "react-docgen-typescript",
   },
+  core: {
+    builder: '@storybook/builder-vite', // 👈 The builder enabled here.
+  },
 
-  viteFinal: async (config) => {
+  async viteFinal(config) {
+    // Merge custom configuration into the default config
+    const { mergeConfig } = await import('vite');
+
     return mergeConfig(config, {
-      plugins: [svgr()],
+      // Add dependencies to pre-optimization
+      optimizeDeps: {
+        include: ['storybook-dark-mode'],
+      },
     });
   },
 };
