@@ -1,4 +1,4 @@
-
+import './Icon.css';
 import PropTypes from 'prop-types';
 
 // Importando archivos PNG 
@@ -9,7 +9,7 @@ import FlagPNG from './flag.png';
 import LogoPNG from './logo.png';
 import ArrowRightPNG from './arrowRight.png';
 
-const Icon = ({ type }) => {
+const Icon = ({ type, style }) => {
   const icons = {
     search: SearchPNG,
     heart: HeartPNG,
@@ -19,11 +19,15 @@ const Icon = ({ type }) => {
     arrowRight: ArrowRightPNG,
   };
 
-  return <img src={icons[type]} alt={type} />;
+
+  const iconClasses = `icon icon-${type} icon-card`;
+
+  return <img src={icons[type]} alt={type} className={`${iconClasses} ${style && style.iconClass}`} />;
 };
 
 Icon.propTypes = {
   type: PropTypes.oneOf(['search', 'heart', 'info', 'flag', 'logo', 'arrowRight']).isRequired,
+  style: PropTypes.object,
 };
 
 export default Icon;

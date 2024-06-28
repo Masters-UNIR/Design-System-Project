@@ -4,8 +4,12 @@ h3 {
   text-transform: uppercase;
   margin: 10px 0;
   font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(36, 36, 82);
 }
 
 h3 {
   font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(36, 36, 82);
 }

@@ -1,0 +1,24 @@
+.icon {
+  display: inline-block;
+  /* Tamaño por defecto para todos los íconos */
+  width: 16px;
+  height: 16px;
+}
+
+.icon-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-card {
+  display: inline-flex;
+  max-width: 20px;
+  /* Tamaño específico para íconos dentro de Card */
+  max-height: auto;
+  /* Mantener la proporción */
+}
