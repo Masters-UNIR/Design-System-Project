@@ -1,12 +1,12 @@
-import Input from "/src/componentes/Atomos/Input/Input"
-import Button from "/src/componentes/Atomos/Button/Button"
-import './SearchBar.css'
+import Input from "/src/componentes/Atomos/Input/Input";
+import ButtonIcon from "/src/componentes/Atomos/ButtonIcon/ButtonIcon";
+import './SearchBar.css';
 
 const SearchBar = () => {
   return (
     <div className="searchBar">
-      <Input type='text' placeholder='Buscar producto...' />
-      <Button variant="light" icon="search" text="Buscar" />
+      <Input type='text' placeholder='Buscar workshop...' />
+      <ButtonIcon type='primary' icon="search" style={{ width: '10%', height: '10%' }} />
     </div>
   );
 };

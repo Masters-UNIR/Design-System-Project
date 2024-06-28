@@ -1,10 +1,11 @@
 .searchBar {
-  padding: 16px;
-  align-items: stretch;
-  padding: 16px;
   display: flex;
+  align-items: center;
+  gap: 8px;
+  /* Espacio entre el input y el botón */
 }
 
-.searchBar button {
-  margin: 0 10px
+.searchBar input {
+  flex-grow: 1;
+  /* Hace que el input ocupe el espacio disponible */
 }

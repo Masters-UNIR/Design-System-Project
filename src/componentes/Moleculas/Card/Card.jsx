@@ -2,7 +2,6 @@ import classnames from "classnames";
 import Title from "../../Atomos/Title/Title";
 import Text from "../../Atomos/Text/Text";
 import IconSpec from "../../Moleculas/IconSpec/IconSpec";
-
 import Image from "../../Atomos/Image/Image";
 import './Card.css';
 import PropTypes from 'prop-types';
