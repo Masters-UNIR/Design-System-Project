@@ -5,6 +5,7 @@
   border-bottom: 1px solid #03FFE1;
   background-color: transparent;
   gap: 5px;
+  padding: 10px;
 }
 
 .headerBar svg {

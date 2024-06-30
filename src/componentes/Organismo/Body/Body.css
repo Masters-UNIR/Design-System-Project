@@ -1,0 +1,32 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.body.dark {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  /* Texto blanco en modo oscuro. Color fondo transparente, se selecciona en Layout*/
+}
+
+.body.light {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(36, 36, 82);
+  /* Texto en color rgb(36, 36, 82) en modo claro. Color fondo transparente,
+    se selecciona en Layout */
+}
+
+.column {
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #03FFE1 0%, #FF02F0 100%);
+}
+
+.column h2,
+.column p {
+  color: inherit;
+}

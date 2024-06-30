@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px
+}
+
+.layout.dark {
+  background-color: rgb(36, 36, 82);
+  /* Fondo oscuro */
+  color: #ffffff;
+  /* Texto en color claro */
+}
+
+.layout.light {
+  background-color: #ffffff;
+  /* Fondo claro */
+  color: rgb(36, 36, 82);
+  /* Texto en color oscuro */
+}
+
+.body {
+  flex: 1;
+  padding: 20px;
+}

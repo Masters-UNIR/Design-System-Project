@@ -1,0 +1,16 @@
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar a {
+  color: #03FFE1;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
