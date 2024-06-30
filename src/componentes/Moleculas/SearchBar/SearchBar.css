@@ -7,5 +7,5 @@
 
 .searchBar input {
   flex-grow: 1;
-  /* Hace que el input ocupe el espacio disponible */
+  /* El input ocupa el espacio disponible */
 }

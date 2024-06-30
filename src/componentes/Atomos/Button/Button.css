@@ -1,6 +1,6 @@
 /* src/componentes/Atomos/Button.css */
 .button {
-  --accent-color: rgb(158, 231, 231);
+  --accent-color: #03FFE1;
   background-color: var(--accent-color);
   color: rgb(36, 36, 82);
   border: none;
@@ -15,8 +15,8 @@
 }
 
 .button:hover {
-  background-color: rgb(36, 36, 82);
-  color: rgb(158, 231, 231);
+  background-color: #92F9ED;
+  color: #fff;
 }
 
 .primary {
@@ -25,13 +25,13 @@
 
 .secondary {
   background-color: transparent;
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid #92F9ED 40%;
+  color: #fff;
 }
 
 .tertiary {
-  background-color: var(--accent-color);
-  border: 2px dashed rgb(36, 36, 82);
+  background-color: #FF02F0;
+  border: 2px #FF02F0;
 }
 
 .button img {

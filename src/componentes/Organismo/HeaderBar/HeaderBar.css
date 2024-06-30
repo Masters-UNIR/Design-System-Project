@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #03FFE1;
+  background-color: transparent;
+  gap: 5px;
 }
 
 .headerBar svg {

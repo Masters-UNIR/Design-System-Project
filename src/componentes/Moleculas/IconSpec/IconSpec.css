@@ -4,15 +4,16 @@
   align-items: center;
   /* Centra verticalmente los elementos */
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Aplica estilos a los elementos img y svg*/
 .specification img,
 .specification svg {
   width: 20px;
-  /* Define un ancho fijo para los íconos */
+  /* Ancho fijo para los íconos */
   height: 20px;
-  /* Define una altura fija para los íconos */
+  /* Altura fija para los íconos */
   margin-right: 5px;
   /* Espacio a la derecha del ícono */
 

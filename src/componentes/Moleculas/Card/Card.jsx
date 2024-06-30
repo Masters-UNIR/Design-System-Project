@@ -19,7 +19,7 @@ const Card = ({ alt, image, name, description, stock, price, cardStyle, iconStyl
         <Title level="h3" text={name} />
         <Text text={description} />
         <footer>
-          <IconSpec icon="flag" style={iconStyle}>{stock} uds.</IconSpec>
+          <IconSpec icon="flag" style={iconStyle}>{stock} pax.</IconSpec>
           <IconSpec icon="info" style={iconStyle}>{price} €</IconSpec>
         </footer>
       </div>

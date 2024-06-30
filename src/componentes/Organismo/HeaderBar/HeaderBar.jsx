@@ -2,7 +2,7 @@ import classnames from 'classnames'
 import Icon from '/src/componentes/Atomos/Icon/Icon'
 import SearchBar from '/src/componentes/Moleculas/SearchBar/SearchBar'
 import PropTypes from 'prop-types';
-import './HeaderBar.css'
+import './HeaderBar.css';
 
 const HeaderBar = ({ variant = 'light', search }) => {
 

@@ -1,0 +1,30 @@
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  /* Altura del gráfico de barras */
+  gap: 8px;
+  /* Espacio entre las barras */
+}
+
+.bar {
+  width: 30px;
+  /* Ancho de cada barra */
+  background-color: #FF02F0;
+  /* Color de las barras */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.bar-label {
+  position: absolute;
+  bottom: -30px;
+  white-space: nowrap;
+  transform: rotate(-45deg);
+  transform-origin: left bottom;
+  font-size: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(36, 36, 82);
+}
