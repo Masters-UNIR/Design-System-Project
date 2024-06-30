@@ -21,10 +21,11 @@
   margin-top: -100px;
   padding: 100px 10px 10px 10px;
   border: 1px solid;
+  border-radius: 40px;
   border-image-slice: 1;
   border-width: 1px;
   border-image-source: linear-gradient(90deg, #03FFE1 0%, #FF02F0 100%);
-  border-radius: 10px;
+
 }
 
 .card .details p {
