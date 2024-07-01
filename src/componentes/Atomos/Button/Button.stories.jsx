@@ -1,4 +1,4 @@
-// src/componentes/Atomos/Button.stories.jsx
+
 
 import Button from "./Button";
 import "./Button.css";
