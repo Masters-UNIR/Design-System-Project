@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Button from './componentes/Atomos/Button/Button';
-import Dropdown from './componentes/Moleculas/Dropdown/Dropdown';
-import Separator from './componentes/Atomos/Separator/Separator.jsx';
-import LoginForm from './componentes/Moleculas/LoginForm/LoginForm.jsx';
-import CardSection from './componentes/Organismo/CardSection/CardSection';
-import SearchBar from './componentes/Moleculas/SearchBar/SearchBar.jsx';
-import BarChart from './componentes/Moleculas/BarChart/BarChart.jsx'
+import Button from './components/Atoms/Button/Button';
+import Dropdown from './components/Molecules/Dropdown/Dropdown';
+import Separator from './components/Atoms/Separator/Separator.jsx';
+import LoginForm from './components/Organisms/LoginForm/LoginForm.jsx';
+import CardSection from './components/Organisms/CardSection/CardSection';
+import SearchBar from './components/Molecules/SearchBar/SearchBar.jsx';
+import BarChart from './components/Molecules/BarChart/BarChart.jsx'
 
 //Componente App
 
