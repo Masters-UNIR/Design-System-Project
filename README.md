@@ -22,24 +22,24 @@ Cada componente disponede tres archivos:
 
 Estructura - sistema de diseño atómico (Atomic Design Methodology) organizado en 5 niveles
 
-1. Átomos
+1. Atoms
     o Son los componentes más básicos e indivisibles de la interfaz
     o Componentes creados:
         § Button, ButtonIcon, Icon, Image, Input, Separator, Text, Title.
-2. Moléculas
+2. Molecules
     o Son combinaciones simples de átomos que forman componentes funcionales.
     o Componentes creados:
-        § BarChart, Card, Dropdown, IconSpec, LoginForm, SearchBar.
-3. Organismos
+        § BarChart, Card, Dropdown, IconSpec, SearchBar.
+3. Organisms
     o Son componentes más complejos compuestos por moléculas y átomos.
     o Componentes creados:
-        § Body, CardSection, FootBar, HeaderBar, NavBar, TitleHeader.
-4. Plantillas
+        § Body, CardSection, FootBar, HeaderBar, LoginForm, NavBar, TitleHeader.
+4. Templates
     o Estructuras de diseño que organizan organismos y moléculas en un diseño de
       página.
     o Componentes creados:
         § Layout
-5. Páginas
+5. Pages
     o Son instancias específicas de plantillas con contenido real.
     o Componentes creados:
         § Home
