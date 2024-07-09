@@ -19,21 +19,25 @@ const LoginForm = ({ onSubmit }) => {
   return (
     <form className="login-form" onSubmit={handleSubmit}>
       <Text tag="label" htmlFor="username">Nombre de usuario</Text>
-      <Input
-        type="text"
-        id="username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        placeholder="Introduce tu nombre de usuario"
-      />
+      <label>
+        <Input
+          type="text"
+          id="username"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Nombre de usuario"
+        />
+      </label>
       <Text tag="label" htmlFor="password">Contraseña</Text>
-      <Input
-        type="password"
-        id="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Introduce tu contraseña"
-      />
+      <label>
+        <Input
+          type="password"
+          id="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Contraseña"
+        />
+      </label>
       <Button type="primary" htmlType="submit">Enviar</Button>
     </form>
   );
