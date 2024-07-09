@@ -6,10 +6,12 @@
 }
 
 .layout.dark {
-  background-color: rgb(36, 36, 82);
-  /* Fondo oscuro */
   color: #ffffff;
   /* Texto en color claro */
+  background-color: transparent;
+  /* Para hacer el degradado elimino el color de fondo */
+  background-image: linear-gradient(to right, rgb(0, 0, 4), rgb(36, 36, 82));
+  /* Aplico el degradado */
 }
 
 .layout.light {

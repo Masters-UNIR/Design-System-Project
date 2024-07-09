@@ -43,3 +43,4 @@ Estructura - sistema de diseño atómico (Atomic Design Methodology) organizado 
     o Son instancias específicas de plantillas con contenido real.
     o Componentes creados:
         § Home
+        § LoginPage
