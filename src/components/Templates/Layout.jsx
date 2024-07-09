@@ -1,7 +1,7 @@
 
 import HeaderBar from '/src/components/Organisms/HeaderBar/HeaderBar';
 import FooterBar from '/src/components/Organisms/FooterBar/FooterBar';
-import Body from '/src/components/Organisms/Body/Body';
+
 import './Layout.css';
 import PropTypes from "prop-types";
 
@@ -12,9 +12,7 @@ const Layout = ({ children, darkMode }) => {
   return (
     <div className={layoutClasses}>
       <HeaderBar variant={darkMode ? 'dark' : 'light'} />
-      <Body darkMode={darkMode}>
-        {children}
-      </Body>
+      {children}
       <FooterBar fixed={true} />
     </div>
   );

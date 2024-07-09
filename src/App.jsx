@@ -6,6 +6,8 @@ import LoginForm from './components/Organisms/LoginForm/LoginForm.jsx';
 import CardSection from './components/Organisms/CardSection/CardSection';
 import SearchBar from './components/Molecules/SearchBar/SearchBar.jsx';
 import BarChart from './components/Molecules/BarChart/BarChart.jsx'
+import Home from './components/Pages/Home.jsx';
+import LoginPage from './components/Pages/LoginPage.jsx';
 
 //Componente App
 
@@ -106,6 +108,14 @@ const App = () => {
         }
       ]}
       />
+
+      <Separator />
+      <Separator />
+      <Home />
+      <Separator />
+      <Separator />
+      <LoginPage />
+
 
     </div>
   );

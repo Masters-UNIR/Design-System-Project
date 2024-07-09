@@ -16,15 +16,15 @@ const HeaderBar = ({ variant = 'light', search }) => {
 
   return (
     <header className={headerClasses}>
-      <Icon type="logo" />
-      <NavBar /> {/* Integra NavBar aquí */}
+      <Icon type="logoP" />
+      <NavBar /> {/* Integro NavBar aquí */}
       {search && <SearchBar />}
     </header>
   );
 };
 
 HeaderBar.propTypes = {
-  variant: PropTypes.oneOf(['light', 'dark']).isRequired, // Corrige el PropTypes.oneOf
+  variant: PropTypes.oneOf(['light', 'dark']).isRequired,
   search: PropTypes.string,
 };
 

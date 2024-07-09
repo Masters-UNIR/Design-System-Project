@@ -7,6 +7,7 @@ import HeartPNG from './heart.png';
 import InfoPNG from './info.png';
 import FlagPNG from './flag.png';
 import LogoPNG from './logo.png';
+import LogopinkPNG from './logo_pink.png';
 import ArrowRightPNG from './arrowRight.png';
 
 const Icon = ({ type, style }) => {
@@ -16,6 +17,7 @@ const Icon = ({ type, style }) => {
     info: InfoPNG,
     flag: FlagPNG,
     logo: LogoPNG,
+    logoP: LogopinkPNG,
     arrowRight: ArrowRightPNG,
   };
 
@@ -26,7 +28,7 @@ const Icon = ({ type, style }) => {
 };
 
 Icon.propTypes = {
-  type: PropTypes.oneOf(['search', 'heart', 'info', 'flag', 'logo', 'arrowRight']).isRequired,
+  type: PropTypes.oneOf(['search', 'heart', 'info', 'flag', 'logo', 'logoP', 'arrowRight']).isRequired,
   style: PropTypes.object,
 };
 

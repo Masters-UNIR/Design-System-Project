@@ -33,6 +33,11 @@ Logo.args = {
   type: 'logo',
 };
 
+export const LogoP = Template.bind({});
+Logo.args = {
+  type: 'logoP',
+};
+
 export const ArrowRight = Template.bind({});
 ArrowRight.args = {
   type: 'ArrowRight',
