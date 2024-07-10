@@ -17,7 +17,7 @@ const HeaderBar = ({ variant = 'light', search }) => {
   return (
     <header className={headerClasses}>
       <Icon type="logoP" />
-      <NavBar /> {/* Integro NavBar aquí */}
+      <NavBar /> {/* NavBar aquí */}
       {search && <SearchBar />}
     </header>
   );

@@ -13,6 +13,11 @@ export default {
                 options: ['h1', 'h2', 'h3'], // Opciones disponibles para 'level'
             },
         },
+        variant: {
+            control: 'select',
+            options: ['default', 'pink'],
+            defaultValue: 'default',
+        },
     },
 };
 
@@ -22,4 +27,11 @@ export const Example = Template.bind({});
 Example.args = {
     text: 'Title Text',
     level: 'h1', // Cambio de nivel estilo
+};
+
+export const PinkTitle = Template.bind({});// Ejemplo 
+PinkTitle.args = {
+    text: 'Title Text',
+    level: 'h3',
+    variant: 'pink',
 };

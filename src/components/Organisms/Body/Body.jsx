@@ -15,6 +15,7 @@ const Body = ({ darkMode }) => {
       stock: 10,
       price: 50,
       image: '/path-to-image/product1.jpg',
+
     },
     {
       name: 'Workshop 2',
@@ -22,6 +23,7 @@ const Body = ({ darkMode }) => {
       stock: 15,
       price: 70,
       image: '/path-to-image/product2.jpg',
+
     },
     // Agregar más workshops según sea necesario
   ];
@@ -52,6 +54,7 @@ const Body = ({ darkMode }) => {
           subtitle="Revisa los workshops de tus proyectos activos"
           items={cardSectionItems}
           highlighted={true}
+          darkMode={darkMode} //Pasamos darkMode a CardSection
         />
       </div>
     </div>
@@ -61,6 +64,10 @@ const Body = ({ darkMode }) => {
 Body.propTypes = {
 
   darkMode: PropTypes.bool,
+};
+
+Body.defaultProps = {
+  darkMode: true,  // Modo oscuro por defecto
 };
 
 export default Body;

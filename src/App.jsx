@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div>
-      <h1> Kaixo {displayText}!</h1>
+      {/*<h1> Kaixo {displayText}!</h1>
       <p>Introduce tu nombre</p>
       <input type="text" onChange={nombre} />
       <Button onClick={handleButtonClick} />
@@ -111,7 +111,7 @@ const App = () => {
 
       <Separator />
       <Separator />
-      <Home />
+      <Home />*/}
       <Separator />
       <Separator />
       <LoginPage />

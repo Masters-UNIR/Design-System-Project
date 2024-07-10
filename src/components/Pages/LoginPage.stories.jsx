@@ -9,6 +9,7 @@ export default {
 
 const Template = (args) => (
   <Layout {...args}>
+    <h1>Accede a tu dashboard</h1>
     <LoginForm />
   </Layout>
 );

@@ -20,6 +20,10 @@ export default {
     },
     cardStyle: { control: 'object' }, // Prop para los estilos de CardSection
     iconStyle: { control: 'object' }, // Prop para los estilos de los íconos dentro de Card
+    darkMode: {
+      control: 'boolean',
+      defaultValue: true,
+    },
   },
 };
 
@@ -37,4 +41,34 @@ Default.args = {
   ],
   cardStyle: {}, // Añade los estilos deseados para CardSection
   iconStyle: { iconClass: 'icon-card' }, // Clase CSS para ajustar tamaño de íconos dentro de Card
+};
+
+export const LightMode = Template.bind({});
+LightMode.args = {
+  title: 'Section Title',
+  subtitle: 'Section Subtitle',
+  highlighted: false,
+  items: [
+    { alt: 'Alt Text 1', image: 'https://via.placeholder.com/150', name: 'Workshop 1', description: 'Description 1', stock: 10, price: 100 },
+    { alt: 'Alt Text 2', image: 'https://via.placeholder.com/150', name: 'Workshop 2', description: 'Description 2', stock: 5, price: 200 },
+    { alt: 'Alt Text 3', image: 'https://via.placeholder.com/150', name: 'Workshop 3', description: 'Description 3', stock: 2, price: 300 }
+  ],
+  cardStyle: {}, // Añade los estilos deseados para CardSection
+  iconStyle: { iconClass: 'icon-card' }, // Clase CSS para ajustar tamaño de íconos dentro de Card
+  darkMode: false, // Modo claro
+};
+
+export const DarkMode = Template.bind({});
+DarkMode.args = {
+  title: 'Section Title',
+  subtitle: 'Section Subtitle',
+  highlighted: false,
+  items: [
+    { alt: 'Alt Text 1', image: 'https://via.placeholder.com/150', name: 'Workshop 1', description: 'Description 1', stock: 10, price: 100 },
+    { alt: 'Alt Text 2', image: 'https://via.placeholder.com/150', name: 'Workshop 2', description: 'Description 2', stock: 5, price: 200 },
+    { alt: 'Alt Text 3', image: 'https://via.placeholder.com/150', name: 'Workshop 3', description: 'Description 3', stock: 2, price: 300 }
+  ],
+  cardStyle: {}, // Añade los estilos deseados para CardSection
+  iconStyle: { iconClass: 'icon-card' }, // Clase CSS para ajustar tamaño de íconos dentro de Card
+  darkMode: true, // Modo oscuro
 };

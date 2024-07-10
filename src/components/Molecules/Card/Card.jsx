@@ -7,17 +7,19 @@ import './Card.css';
 import PropTypes from 'prop-types';
 
 
-const Card = ({ alt, image, name, description, stock, price, cardStyle, iconStyle }) => {
+const Card = ({ alt, image, name, description, stock, price, cardStyle, iconStyle, darkMode }) => {
   const cardClassNames = classnames('card', {
-    hasImage: image
+    hasImage: image,
+    'dark-mode': darkMode,
+    'light-mode': !darkMode
   });
 
   return (
     <article className={cardClassNames} style={cardStyle}>
       {image && <Image source={image} altText={alt} />}
       <div className="details">
-        <Title level="h3" text={name} />
-        <Text text={description} />
+        <Title level="h3" text={name} variant={darkMode ? 'pink' : 'default'} />
+        <Text text={description} variant={darkMode ? 'pink' : 'default'} />
         <footer>
           <IconSpec icon="flag" style={iconStyle}>{stock} pax.</IconSpec>
           <IconSpec icon="info" style={iconStyle}>{price} €</IconSpec>
@@ -38,6 +40,9 @@ Card.propTypes = {
   iconStyle: PropTypes.shape({
     iconClass: PropTypes.string, // Clase CSS para el ícono
   }),
+  darkMode: PropTypes.bool, //Modo oscuro por defecto
 };
-
+Card.defaultProps = {
+  darkMode: true,
+};
 export default Card;

@@ -9,3 +9,9 @@ p {
   color: rgb(36, 36, 82);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.text-pink {
+  font-size: 16px;
+  color: #FF02F0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
