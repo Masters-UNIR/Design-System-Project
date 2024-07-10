@@ -5,14 +5,14 @@ import Title from '../Atoms/Title/Title';
 
 
 const LoginPage = () => {
-
+  const darkMode = true; // Defino darkMode como true por defecto
 
 
   return (
-    <Layout>
+    <Layout darkMode={darkMode}>
       <div>
         <Title level="h2" text={'Accede a tu dashboard'} variant={'pink'} />
-        <LoginForm darkMode={true} />
+        <LoginForm darkMode={darkMode} />
       </div>
     </Layout>
   );

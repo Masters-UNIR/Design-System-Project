@@ -16,6 +16,20 @@
   /* Aplico el degradado */
 }
 
+.login-form.dark-mode {
+  color: #ffffff;
+  /* Color de texto para modo oscuro */
+  background-image: linear-gradient(to right, #000004, #242452);
+  /* Fondo degradado para modo oscuro */
+}
+
+.login-form.light-mode {
+  color: #242452;
+  /* Color de texto para modo claro */
+  background-color: #ffffff;
+  /* Fondo blanco para modo claro */
+}
+
 .login-form label {
   width: 350px;
   margin-bottom: 8px;

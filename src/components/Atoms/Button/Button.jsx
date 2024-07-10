@@ -17,7 +17,7 @@ Button.propTypes = {
   children: PropTypes.string.isRequired,
   type: PropTypes.oneOf(["primary", "secondary", "tertiary"]).isRequired,
   onClick: PropTypes.func,
-  htmlType: PropTypes.oneOf(["button", "sunmit", "reset"])
+  htmlType: PropTypes.oneOf(["button", "submit", "reset"])
 };
 
 Button.defaultProps = {

@@ -9,9 +9,11 @@ const Home = () => {
 
 
   return (
-    <Layout>
-      <Body darkMode={true} />
-    </Layout>
+    <div>
+      <Layout>
+        <Body darkMode={true} />
+      </Layout>
+    </div>
   );
 };
 

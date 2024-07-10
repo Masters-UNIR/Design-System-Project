@@ -6,7 +6,7 @@ import './Layout.css';
 import PropTypes from "prop-types";
 
 
-const Layout = ({ children, darkMode }) => {
+const Layout = ({ children, darkMode = true }) => {
   const layoutClasses = darkMode ? 'layout dark' : 'layout light';
 
   return (
@@ -22,7 +22,5 @@ Layout.propTypes = {
   darkMode: PropTypes.bool,
 };
 
-Layout.defaultProps = {
-  darkMode: true, //Por defecto estamos en darkMode
-}
+
 export default Layout;

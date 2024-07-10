@@ -5,7 +5,7 @@ import Button from '../../Atoms/Button/Button';
 import CardSection from '../CardSection/CardSection';
 import Separator from '../../Atoms/Separator/Separator';
 
-const Body = ({ darkMode }) => {
+const Body = ({ darkMode = true }) => {
   const bodyClasses = darkMode ? 'body dark' : 'body light';
 
   const cardSectionItems = [
@@ -66,9 +66,7 @@ Body.propTypes = {
   darkMode: PropTypes.bool,
 };
 
-Body.defaultProps = {
-  darkMode: true,  // Modo oscuro por defecto
-};
+
 
 export default Body;
 

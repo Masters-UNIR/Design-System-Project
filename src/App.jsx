@@ -1,20 +1,12 @@
 
-import Button from './components/Atoms/Button/Button';
+{/*
+  import Button from './components/Atoms/Button/Button';
 import Dropdown from './components/Molecules/Dropdown/Dropdown';
 import LoginForm from './components/Organisms/LoginForm/LoginForm.jsx';
 import CardSection from './components/Organisms/CardSection/CardSection';
 import SearchBar from './components/Molecules/SearchBar/SearchBar.jsx';
 import BarChart from './components/Molecules/BarChart/BarChart.jsx'
-import Home from './components/Pages/Home.jsx';
-import LoginPage from './components/Pages/LoginPage.jsx';
-import { useState } from 'react';
-import Separator from './components/Atoms/Separator/Separator.jsx';
-//Componente App
 
-const App = () => {
-  const [inputText, setInputText] = useState('');
-  const [displayText, setDisplayText] = useState('');
-  const [isOpen, setIsOpen] = useState('');
 
   //Genero un evento para mostrar nombre de usuario. Cuando introduces tu nombre en el campo de texto te lo muestra en pantalla
 
@@ -26,24 +18,31 @@ const App = () => {
     // Cuando se hace clic en el botón, actualiza el texto que se muestra en el h1
     setDisplayText(inputText);
   };
+
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  return (
-    <div>
-      {/*<h1> Kaixo {displayText}!</h1>
+//Prueba inicial - Componentes: para mostrar incluir este codigo en return()
+     
+<h1> Kaixo {displayText}!</h1>
       <p>Introduce tu nombre</p>
       <input type="text" onChange={nombre} />
       <Button onClick={handleButtonClick} />
       <Separator />
       <p>Selecciona una opción</p>
       <Dropdown onClick={toggleDropdown} options={(['Proyecto1', 'Proyecto2', 'Proyecto3'])}></Dropdown>
+      <br/>
       <Separator />
+      <br/>
       <LoginForm />
+      <br/>
       <Separator />
+      <br/>
       <SearchBar />
+      <br/>
       <Separator />
+      <br/>
       <CardSection cardStyle={{}}
         iconStyle={{
           iconClass: 'icon-card'
@@ -84,7 +83,9 @@ const App = () => {
         ]}
         subtitle="Workshops activos"
         title="Proyecto 1" />
+        <br/>
       <Separator />
+      <br/>
       <BarChart data={[
         {
           label: 'ENE',
@@ -108,17 +109,50 @@ const App = () => {
         }
       ]}
       />
+<br/>
+      <Separator />
+      <br/>
+      <Separator />
+      <br/>
+      <Home />
+      <Separator />
+      <br />
+      <Separator />
+      <br />
+      <LoginPage />*/}
 
-      <Separator />
-      <Separator />
-      <Home />*/}
-      <Separator />
-      <Separator />
-      <LoginPage />
+{/*Prueba final
+//Aparece un error en el enrutamiento - Home no se renderiza cuando pulsamos en el botón de enviar de LoginPage
 
+import Router from './app/Router.jsx';
+import Separator from './components/Atoms/Separator/Separator';
 
+const App = () => {
+  return (
+    <div>
+      <Separator />
+      <Router />
+      <Separator />
+    </div>
+  );
+};
+
+export default App;*/}
+
+//Ejemplo de muestra Home
+import Home from './components/Pages/Home.jsx';
+import Separator from './components/Atoms/Separator/Separator';
+
+const App = () => {
+  return (
+    <div>
+      <Separator />
+      <Home />
+      <Separator />
     </div>
   );
 };
 
 export default App;
+
+
