@@ -11,7 +11,7 @@ const FooterBar = ({ fixed }) => {
 
   return (
     <footer className={footerClasses}>
-      <Text text={'Todos los derechos reservados'} />
+      <Text text={'@Todos los derechos reservados'} variant={'pink'} />
     </footer>
   )
 }

@@ -1,14 +1,14 @@
-import { useState } from 'react';
+
 import Button from './components/Atoms/Button/Button';
 import Dropdown from './components/Molecules/Dropdown/Dropdown';
-import Separator from './components/Atoms/Separator/Separator.jsx';
 import LoginForm from './components/Organisms/LoginForm/LoginForm.jsx';
 import CardSection from './components/Organisms/CardSection/CardSection';
 import SearchBar from './components/Molecules/SearchBar/SearchBar.jsx';
 import BarChart from './components/Molecules/BarChart/BarChart.jsx'
 import Home from './components/Pages/Home.jsx';
 import LoginPage from './components/Pages/LoginPage.jsx';
-
+import { useState } from 'react';
+import Separator from './components/Atoms/Separator/Separator.jsx';
 //Componente App
 
 const App = () => {
